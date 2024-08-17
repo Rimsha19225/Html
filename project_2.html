@@ -1,0 +1,94 @@
+<!-- Portfolio Website -->
+
+<!-- Objective: Design a simple portfolio to showcase your projects or work.
+Requirements:
+A navigation bar with links to different sections like "Home," "Projects," "Contact"
+A gallery of images or project thumbnails
+Each project should have a title, description, and a link to view more details.
+Use images, links (<a>), and semantic elements like <article>, <section>, and <footer>. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Rimsha arshad" />
+    <meta name="description" content="This is my some memories. i am very happy to shear with your" />
+    <title>Project_2 html</title>
+    <style>
+        ol{
+            list-style-type: none;
+            display: flex;
+            gap: 15px;
+        }
+        img{
+            border-radius: 30px;
+            display: flex;
+            row-gap: 10px;
+        }
+        article, p, h1, h2, h3{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfalio</h1>
+        <nav>
+            <ol>
+                <br><br><br>
+                <li><a href="http://127.0.0.1:5500/project_2.html" target="_self">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/project_1.html" target="_blank">Projects</a></li>
+                <li><a href="https://wa.me/923131156294" target="_blank">Contect</a></li>
+            </ol>
+        </nav>
+    </header>
+    <section>
+        <h2>Wellcom to my Gallery:</h2>
+        <p>This is for some memories to shear with you.</p>
+    </section>
+    <section>
+        <div style="display: flex;">
+            <figure>
+                <a href="http://127.0.0.1:5500/project_1.html" title="Click to move project 1">
+                <img src="./gallery_1.webp" alt="Gallery Image" width="200" height="300">
+                </a>
+                <figcaption>Eid-ul-Fitar</figcaption>
+                <article>
+                    <p>After namaz of Eid-ul-Fitar. I am ready wear new dress and capture that moment.</p>
+                </article>
+            </figure>
+            <figure>
+                <img src="./gallery_2.webp" alt="Gallery Image" width="200" height="300">
+                <figcaption>Semester VII (Mid Term)</figcaption>
+                <article>
+                    <p>That memory when i am in VII Semester. The Mid term exam is done good. So, i am very happy that moment.</p>
+                </article>
+            </figure>
+            <figure>
+                <img src="./gallery_3.webp" alt="Gallery Image" width="200" height="300">
+                <figcaption>Independance Practice Day</figcaption>
+                <article>
+                    <p>Our Independance day near. Teachers & students ready drama to summarize our elders struggle who to achieve beautyfull country Pkaistan.</p>
+                </article>
+            </figure>
+            <figure>
+                <img src="./gallery_4.webp" alt="Gallery Image" width="200" height="300">
+                <figcaption>New Glasses</figcaption>
+                <article>
+                    <p>Face problem to view far thing. After recomended doctor buy that glasses.</p>
+                </article>
+            </figure>
+        </div>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>You can reach me at that <a href="mailto:your-adeelarshad8900@gmail.com">email click here</a>.</p>
+        <p><a href="tel:+923333039912">Contact</a> 📞</p>
+    </section>
+    <footer>
+        <p>&copy; My Portfalio 2024.</p>
+    </footer>
+</body>
+</html>

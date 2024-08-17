@@ -1,0 +1,77 @@
+<!-- Simple Personal Profile Page -->
+
+
+<!-- Objective: Create a basic HTML page that serves as a personal profile.
+Requirements:
+A profile picture
+Name, bio, and contact information
+Sections like "About Me," "Hobbies," and "Skills"
+Use headings (<h1>, <h2>, etc.), paragraphs (<p>), and lists (<ul>, <ol>). -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project_1 html</title>
+    <style>
+        h1, h2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        img{
+            border-image: round;
+            border-radius: 110px;
+            border-color: rgb(212, 250, 21);
+        }
+        ul{
+            list-style-type:lower-latin;
+        }
+        button{
+            display: block;
+            margin: auto;
+        }
+        ul{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rimsha M. Arshad</h1>
+    <img src="./rim_profile.webp.png" alt="Profile Image" width="200px" heoght="auto" />
+    <ul>
+        <h2><li>About My Self:</li></h2>
+        <p>My name is Rimsha, and I am currently in my final year of a BS in Mathematics. Throughout my academic journey, I have developed a deep appreciation for the power of mathematical concepts in solving complex problems. My studies have equipped me with a strong foundation in both pure and applied mathematics, and I am eager to leverage this knowledge in future endeavors.</p>
+        <p>As a student, I am driven by curiosity and a passion for understanding the world through a mathematical lens. I am dedicated to not only excelling in my academic pursuits but also to applying my skills in real-world contexts, whether through research, projects, or collaborations. I look forward to contributing to the field of mathematics and making a meaningful impact in whatever I pursue next.</p>
+        <h2><li>Skills:</li></h2>
+        <p>In addition to my academic focus on mathematics, I have developed a diverse set of skills that reflect my interests both inside and outside the classroom. I am passionate about cricket, which has taught me the value of teamwork, strategic thinking, and perseverance. Additionally, I have a creative streak, always looking for opportunities to innovate and bring new ideas to life, whether through academic projects or personal hobbies. My ability to blend analytical thinking with creativity enables me to approach problems from unique perspectives, making me adaptable and resourceful in various situations.</p>
+        <h2><li>Hobbies:</li></h2>
+        <p>Beyond my academic pursuits, I have cultivated a range of skills through my hobbies, which include coding, learning, and teaching. My passion for coding allows me to apply mathematical concepts in practical, innovative ways, while my love for continuous learning drives me to explore new ideas and technologies. Teaching is another hobby that I find deeply rewarding, as it not only reinforces my own understanding but also allows me to share knowledge and inspire others. These hobbies have equipped me with a unique blend of technical proficiency, intellectual curiosity, and the ability to communicate complex ideas effectively.</p>
+    </ul>
+    <fieldset>
+        <legend>Personal Info</legend>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Name" />
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="email.com" />
+            </div>
+            <br>
+                <label for="message">Feedback:</label>
+                <textarea id="message" cols="20" rows="5" placeholder="Message"></textarea>
+                <br>
+                <br>
+                <div class="buto">
+                    <button type="submit">Submit</button>
+                </div>
+        </form>
+    </fieldset>
+</body>
+</html>
